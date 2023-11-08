@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title="Interest calculator">
+<lightning-input type="numbers" label="enter amount" onchange={principalchangehandler}> </lightning-input>
+<lightning-input type="numbers" label="enter years" onchange={yearschangehandler}> </lightning-input>
+<lightning-input type="numbers" label="enter roi" onchange={ROIchangehandler}> </lightning-input>
+<br><br>
+<lightning-button label="calculate interest" icon-position="center" onclick={calculateLoanAmountHandler}></lightning-button>    
+<br> <br>
+<lightning-formatted-text value={loanresult}> </lightning-formatted-text>
+    </lightning-card>
+    
+</template>
+
+
+ 

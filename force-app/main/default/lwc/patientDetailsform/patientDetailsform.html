@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="PATIENT DETAILS">
+    <template if:true={booleanflagvalue}>
+        <lightning-input type="text" label="patient first name"></lightning-input>
+        <lightning-input type="text" label="patient last name"></lightning-input>
+        <lightning-input type="text" label="disease type"></lightning-input>
+        <lightning-input type="text" label="mobile no"></lightning-input>
+<lightning-button label="hide details" onclick={hidedetailshandler}></lightning-button>
+    </template>
+
+    <template if:false={booleanflagvalue}>
+<lightning-button label=" show details" onclick={showdetailshandler}></lightning-button>
+    </template>
+
+</lightning-card> 
+</template>

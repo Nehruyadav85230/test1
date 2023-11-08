@@ -1,0 +1,159 @@
+
+            .img-button{
+                border: none;
+                cursor: pointer;
+            
+            }
+            .img-button:hover{
+opacity: 0.8;
+
+            }
+            .img-button:active{
+                opacity: 0.2;
+            }
+        .buttons-block{
+            display: block;
+        }
+        .subsribe-button{ 
+            background-color: rgb(250, 0,0);
+            color: white;
+          border-radius: 3px;
+          padding-left: 15px;
+          padding-right: 15px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border:none;
+          cursor: pointer;
+          margin-right: 8px;
+          transition: 0.15s;
+        }
+        .subsribe-button:hover{
+opacity: 0.7;
+        }
+.subsribe-button:active{
+    opacity: 0.2;
+}
+    .Join-button{
+        background-color:white;
+        border-color:blue;
+        color: blue;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right:15px;
+        border-radius: 3px;
+        transition:0.15s;
+    }
+    .Join-button:hover{
+        background-color:aquamarine;
+        opacity:0.7;
+    }
+.Join-button:active{
+    opacity:0.2;
+}
+.Tweet-button{
+    background-color: rgb(80, 111, 205);
+    color:white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right:15px;
+    border-radius: 20px;
+    transition:0.15s;
+    border: none;
+    margin-left:8px;
+    display: inline-block;
+}
+.Tweet-button:hover{
+    background-color: black;
+    opacity:0.7;
+}
+    .Tweet-button:active{
+        opacity:0.2;
+    }
+
+        .div-block{
+            background-color: aliceblue;
+            border: 2px solid;
+            display: inline-block;
+            border-radius: 10px;
+            border-color: rgb(0, 102, 255);
+            margin-top: 15px;
+        }
+.first-para{
+font-size:14px;
+font-family:  sans-serif;
+width: 700px;
+margin-left: 30px;
+margin-top: 30px;
+color: rgb(32, 33, 34);
+
+}
+.p1{
+    color: blue;
+    cursor: pointer;
+}
+.p1:hover{
+text-decoration: underline;}
+.p2{
+    color: blue;
+    cursor: pointer;
+}
+.p2:hover{
+    text-decoration: underline;
+}
+.p3{
+    font-style: italic;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(98, 134, 190);
+}
+.p3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.second-para{
+    font-family: sans-serif;
+    font-size:14px;
+width:700px;
+line-height: 20px;
+margin-left: 30px;
+color: rgb(32, 33, 34);
+text-align:left;
+}
+.r1{
+    color: blue;
+    cursor: pointer;
+}
+.r1:hover{
+    text-decoration: underline;
+}
+.r3{
+    color: blue;
+    cursor: pointer;
+}
+.r3:hover{
+    text-decoration: underline;
+}
+    .r2{
+        font-style: italic;
+    }
+    .r4{
+        font-style: italic;
+    }
+    .third-para{
+     font-family: sans-serif;
+    font-size:14px;
+width:700px;
+line-height: 20px;
+margin-left: 30px;
+color:white;
+background-color:red;
+padding-left: 10px;
+margin-right: 10px;
+border: none;
+border-radius: 6px;
+
+padding-top: 10;
+padding-bottom: 10;
+    }

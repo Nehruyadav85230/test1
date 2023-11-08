@@ -1,0 +1,13 @@
+<template>
+    <lightning-card title="FOREACH LOOP">
+        <template for:each={ceolistprop} for:item="cd">
+            <li key={cd.name} >
+
+                Ranking:{cd.id}| CEO Name{cd.name}, {cd.title}
+
+            </li>
+        </template>
+        <lightning-button label="show list" onclick={showlisthandler}></lightning-button>
+    </lightning-card>
+    
+</template>  

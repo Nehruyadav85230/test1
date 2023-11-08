@@ -1,0 +1,4 @@
+<aura:component implements="flexipage:availableForAllPageTypes" 
+                access="global" >
+<iframe width="560" height="315" src="https://www.youtube.com/embed/m9EX0f6V11Y"></iframe>	
+</aura:component>
